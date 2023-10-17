@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "3316-flask-api"
+version = "0.1.0"
+description = "Simple example API"
+authors = ["Ryan Davis <ryancraigdavis@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+Flask = "^3.0.0"
+pytest = "^7.4.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
