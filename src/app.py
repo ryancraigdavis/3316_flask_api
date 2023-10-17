@@ -7,3 +7,9 @@ app = Flask(__name__)
 def index():
     """Main index.html"""
     return render_template("index.html")
+
+
+@app.route("/api/requests/", methods=["GET"])
+def get_requests():
+    """Get example"""
+    return "Lot's of data"
